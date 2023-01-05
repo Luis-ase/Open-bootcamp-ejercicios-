@@ -8,7 +8,7 @@ const libro={
     titulo:"meditaciones marco aurelio",
     autor:"marco aurelio",
     fecha:170,
-    url:"https://www.google.com/search?q=meditaciones+marco+aurelio&sxsrf=ALiCzsb1fLwK_-lCnVJkA_DnFJimTeC8Nw%3A1672878959728&ei=bxu2Y6z7K9nS1sQPyZugoAs&oq=meditaciones+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAxgBMgQIIxAnMgQIIxAnMg4ILhCABBCxAxCDARDUAjIICC4QgAQQsQMyBQguEIAEMgUILhCABDIFCC4QgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CggAEEcQ1gQQsAM6BwguELADEEM6BAgAEEM6BwgjEOoCECc6FAguEIAEELEDEIMBEMcBENEDENQCOgsIABCABBCxAxCDAToRCC4QgAQQsQMQgwEQxwEQ0QM6CgguEMcBENEDECc6CAgAELEDEIMBOgsILhCABBDHARCvAToICAAQgAQQsQM6BQgAELEDOgoIABCxAxCDARBDOg4ILhCABBCxAxDHARDRAzoLCC4QgwEQsQMQgAQ6CgguELEDENQCEEM6EQguEIAEELEDEIMBEMcBEK8BOgsILhCABBCxAxCDAToICC4Q1AIQgARKBAhBGABKBAhGGABQ1AdYoz1guUdoB3ABeAKAAVyIAbASkgECMzGYAQCgAQGwAQrIAQnAAQE&sclient=gws-wiz-serp"
+    url:"https://web.seducoahuila.gob.mx/biblioweb/upload/Marco%20Aurelio-Meditaciones.pdf"
 }
 
 
