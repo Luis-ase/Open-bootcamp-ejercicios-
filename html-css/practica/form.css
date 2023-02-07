@@ -1,0 +1,113 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    width: 30rem;
+    margin: auto;
+}
+.Buttons{
+    display: flex;
+    align-self: flex-start;
+    gap: 2rem;
+}
+.Google-button{
+    background-color: #1a73eb;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.Google-button span{
+    padding: 1rem;
+    color: rgb(255, 252, 252);
+}
+.Google-button picture{
+    width: 30px;
+    height: 30px;
+    background-color: azure;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Google-button picture img{
+    width: 100%;
+}
+.Google-button:hover{
+    opacity: 0.6;
+}
+
+.Twitter-button{
+    background-color: #eee;
+    border: none;
+    border-radius: 2rem;
+    width: 40px;
+}
+.separador{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+.separador hr{
+    flex-grow: 1;
+    border: none;
+
+    border-top: 1px solid rgb(206, 218, 218);
+}
+
+.separador span{
+    font-size:large;
+    color: rgb(206, 218, 218);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.seccion-input{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label span{
+    font-weight: 600;
+}
+label input{
+    width: 80%;
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 1rem;
+    padding: 16px 20px; 
+}
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+}
+.checkbox-label input[type="checkbox"]{
+    width: 20px;
+}
+
+.login{
+    background-color: rgb(247, 5, 118);
+    color: #eee;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor :pointer;
+}
