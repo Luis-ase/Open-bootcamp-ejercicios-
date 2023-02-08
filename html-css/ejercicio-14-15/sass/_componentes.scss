@@ -1,0 +1,108 @@
+@mixin btn-base{
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+@mixin button-sm-modify{
+    font-size: 0.75rem;
+    padding: 0.25rem 1rem;
+}
+
+$colormain: #0075ff;
+
+.button-main{
+    @include btn-base();
+    background-color: $colormain;
+    color: white;
+    border: none;
+    border:solid 1px $colormain;
+    &:hover{
+        background-color: white;
+        color: $colormain;
+    }
+    &-s{
+        @extend .button-main;
+        @include button-sm-modify()
+    }
+}
+.button-sec{
+    @include btn-base();
+    color: black;
+    background-color: transparent;
+    border:none;
+    &:hover{
+        color: #888;
+    }
+    &-s{
+        @extend .button-sec;
+        @include button-sm-modify()
+    }
+}
+
+.main-menu{
+    margin-bottom: 0;
+    li{
+        font-size: medium;
+        list-style: none;
+        display: inline;
+        a{
+            color: black;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.icon-sm{
+    i{
+        font-size: 0.75rem;
+        padding: 0.1rem 0.25rem;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #00000040;
+        color:$colormain;
+    }
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    .icon{
+        color: $colormain;
+        font-size: 10rem;
+        text-align: center;
+    }
+    .description{
+        .title{
+            font-size: 1.75rem;
+            text-align: center;
+        }
+        .text{
+            color: #888;
+            font-weight: 700;
+            text-align: center;
+        } 
+    }
+    .cta{
+        margin-top: 2rem;
+        color: $colormain;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+.icon-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .icon{
+        color: $colormain;
+        font-size: 10rem;
+        padding: 0;
+    }
+    .title{
+        margin-top: -2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
