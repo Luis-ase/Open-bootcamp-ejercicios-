@@ -9,6 +9,8 @@
 }
 
 $colormain: #0075ff;
+$colorFooter:#f4f8fe;
+
 
 .button-main{
     @include btn-base();
@@ -63,27 +65,29 @@ $colormain: #0075ff;
         color:$colormain;
     }
 }
-.feature{
+.benefits{
     display: flex;
     flex-direction: column;
     .icon{
         color: $colormain;
-        font-size: 10rem;
+        font-size: 6rem;
         text-align: center;
     }
     .description{
         .title{
-            font-size: 1.75rem;
+            font-size: 1.40rem;
             text-align: center;
         }
         .text{
             color: #888;
-            font-weight: 700;
+            font-size: 0.9rem;
+            font-weight: 400;
             text-align: center;
         } 
     }
     .cta{
         margin-top: 2rem;
+        font-size: 0.9rem;
         color: $colormain;
         font-weight: 600;
         text-align: center;
